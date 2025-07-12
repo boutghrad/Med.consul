@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نصائح للتعامل مع ارتفاع ضغط الدم في الصيف - MedConsult</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* أنماط CSS من الكود الأصلي */
+        :root {
+            --primary-color: #1a73e8;
+            --secondary-color: #34a853;
+            --accent-color: #fbbc05;
+            --light-color: #f8f9fa;
+            --dark-color: #202124;
+            --text-color: #333;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f5f7fa;
+            direction: rtl;
+        }
+
+        .navbar {
+            background-color: white;
+            box-shadow: var(--box-shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .logo i {
+            margin-left: 0.5rem;
+            color: var(--secondary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin: 0 0.5rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark-color);
+            padding: 0.5rem 1rem;
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            padding: 0.6rem 1.5rem;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* تصميم المقال */
+        .blog-detail {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .blog-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .blog-title {
+            font-size: 2.2rem;
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+        }
+
+        .blog-meta {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .blog-img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+            margin-bottom: 2rem;
+        }
+
+        .blog-content {
+            background-color: white;
+            padding: 2.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+
+        .blog-content h2 {
+            color: var(--primary-color);
+            margin: 1.8rem 0 1rem;
+            font-size: 1.7rem;
+        }
+
+        .blog-content h3 {
+            color: var(--secondary-color);
+            margin: 1.5rem 0 0.8rem;
+            font-size: 1.4rem;
+        }
+
+        .blog-content p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .blog-content ul, .blog-content ol {
+            margin: 1.2rem 0;
+            padding-right: 1.5rem;
+        }
+
+        .blog-content li {
+            margin-bottom: 0.8rem;
+        }
+
+        .important-note {
+            background-color: #e3f2fd;
+            border-right: 4px solid var(--primary-color);
+            padding: 1.2rem;
+            margin: 1.5rem 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        }
+
+        .doctor-card {
+            background-color: var(--light-color);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .doctor-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .doctor-info h3 {
+            color: var(--dark-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .doctor-specialty {
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .share-section {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2.5rem;
+        }
+
+        .share-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.8rem 1.5rem;
+            border-radius: var(--border-radius);
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .share-btn:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        /* التذييل */
+        .footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 4rem 1rem 2rem;
+            margin-top: 3rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-col h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .footer-col h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50px;
+            height: 2px;
+            background-color: var(--secondary-color);
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: white;
+            padding-right: 5px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            background-color: var(--primary-color);
+            transform: translateY(-5px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 3rem;
+            margin-top: 3rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+            }
+
+            .nav-links {
+                margin: 1rem 0;
+            }
+
+            .blog-title {
+                font-size: 1.8rem;
+            }
+
+            .blog-img {
+                height: 300px;
+            }
+
+            .doctor-card {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .blog-title {
+                font-size: 1.5rem;
+            }
+
+            .blog-img {
+                height: 200px;
+            }
+
+            .blog-content {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                MedConsult
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="index.html#services">الخدمات</a></li>
+                <li><a href="index.html#doctors">الأطباء</a></li>
+                <li><a href="index.html#booking">الحجز</a></li>
+                <li><a href="index.html#blog">المدونة</a></li>
+                <li><a href="index.html#testimonials">تقييمات</a></li>
+                <li><a href="index.html#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#" class="btn btn-outline">تسجيل الدخول</a>
+                <a href="#" class="btn btn-primary">انشاء حساب</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- محتوى المقال -->
+    <div class="blog-detail">
+        <div class="blog-header">
+            <h1 class="blog-title">نصائح للتعامل مع ارتفاع ضغط الدم في الصيف</h1>
+            <div class="blog-meta">
+                <span><i class="fas fa-calendar-alt"></i> 15 يوليو 2025</span>
+                <span><i class="fas fa-user-md"></i> د. أحمد حسن</span>
+                <span><i class="fas fa-clock"></i> 6 دقائق قراءة</span>
+            </div>
+            <img src="https://images.unsplash.com/photo-1512675806653-15e7542899e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="ارتفاع ضغط الدم في الصيف" class="blog-img">
+        </div>
+        
+        <div class="blog-content">
+            <p>مع ارتفاع درجات الحرارة في فصل الصيف، يواجه مرضى ارتفاع ضغط الدم تحديات إضافية في إدارة حالتهم الصحية. الحرارة المرتفعة تؤثر على الأوعية الدموية وتسبب تغيرات في ضغط الدم قد تكون خطيرة إذا لم يتم التعامل معها بشكل صحيح.</p>
+            
+            <h2>تأثير الحرارة على ضغط الدم</h2>
+            <p>عند ارتفاع درجة الحرارة، تتوسع الأوعية الدموية في الجلد للمساعدة في تبريد الجسم. هذا التوسع يمكن أن يؤدي إلى انخفاض في ضغط الدم. ومع ذلك، قد يتفاعل الجسم بمحاولة الحفاظ على ضغط الدم الطبيعي عن طريق زيادة معدل ضربات القلب، مما قد يؤدي إلى ارتفاع الضغط لدى بعض الأشخاص.</p>
+            
+            <h3>الأسباب الرئيسية لتغير ضغط الدم في الصيف:</h3>
+            <ul>
+                <li>الجفاف وفقدان السوائل عبر التعرق</li>
+                <li>توسع الأوعية الدموية بسبب الحرارة</li>
+                <li>زيادة معدل ضربات القلب</li>
+                <li>تغيرات في مستويات الصوديوم في الجسم</li>
+                <li>التفاعل بين الأدوية والحرارة</li>
+            </ul>
+            
+            <h2>نصائح هامة لمرضى الضغط في الصيف</h2>
+            
+            <h3>1. الحفاظ على الترطيب</h3>
+            <p>شرب كميات كافية من الماء هو المفتاح الأساسي. يوصى بشرب 8-10 أكواب من الماء يومياً، وزيادة الكمية عند الخروج في الحر أو ممارسة النشاط البدني. تجنب المشروبات التي تحتوي على الكافيين أو كميات كبيرة من السكر.</p>
+            
+            <h3>2. تجنب أشعة الشمس المباشرة</h3>
+            <p>حاول البقاء في الأماكن المظللة أو المكيفة خلال ساعات الذروة (10 صباحاً - 4 مساءً). إذا اضطررت للخروج، ارتدِ ملابس قطنية فاتحة اللون وقبعة واسعة الحواف ونظارات شمسية.</p>
+            
+            <h3>3. مراقبة ضغط الدم بانتظام</h3>
+            <p>زيادة عدد مرات قياس ضغط الدم خلال فصل الصيف. سجل القراءات وراجعها مع طبيبك في الزيارات الدورية. أي تغير كبير في القراءات يتطلب استشارة طبية فورية.</p>
+            
+            <h3>4. تعديل النظام الغذائي</h3>
+            <p>تجنب الأطعمة المالحة والمخللات والأطعمة المصنعة. زد من استهلاك الفواكه والخضروات الغنية بالبوتاسيوم مثل الموز والبطيخ والسبانخ. تناول وجبات خفيفة ومتكررة بدلاً من الوجبات الثقيلة.</p>
+            
+            <div class="important-note">
+                <h3>ملاحظة هامة:</h3>
+                <p>بعض أدوية الضغط مثل مدرات البول قد تحتاج إلى تعديل جرعاتها في الصيف. لا تقم بتغيير أدويتك دون استشارة طبيبك المختص.</p>
+            </div>
+            
+            <h3>5. ممارسة الرياضة بذكاء</h3>
+            <p>اختر أوقات الصباح الباكر أو المساء لممارسة الرياضة. تجنب التمارين الشديدة في الحر. استمع لجسمك وتوقف فوراً إذا شعرت بدوخة أو غثيان. الرياضات المائية خيار ممتاز في الصيف.</p>
+            
+            <h2>متى تطلب المساعدة الطبية؟</h2>
+            <p>يجب الاتصال بالطبيب أو التوجه إلى الطوارئ في الحالات التالية:</p>
+            <ul>
+                <li>ضغط الدم الانقباضي أعلى من 180 ملم زئبق</li>
+                <li>ضغط الدم الانبساطي أعلى من 120 ملم زئبق</li>
+                <li>صداع شديد غير معتاد</li>
+                <li>ضيق في التنفس</li>
+                <li>ألم في الصدر</li>
+                <li>اضطراب في الرؤية</li>
+                <li>دوار شديد أو فقدان للوعي</li>
+            </ul>
+            
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="الدكتور أحمد حسن" class="doctor-img">
+                <div class="doctor-info">
+                    <h3>د. أحمد حسن</h3>
+                    <p class="doctor-specialty">استشاري طب باطني وأمراض القلب</p>
+                    <p>خبرة 15 سنة في مجال أمراض الضغط والقلب، حاصل على البورد الأمريكي في الطب الباطني. متخصص في إدارة الأمراض المزمنة والتكيف مع الظروف البيئية المختلفة.</p>
+                    <a href="#" class="btn btn-primary">حجز استشارة</a>
+                </div>
+            </div>
+            
+            <p>بإتباع هذه النصائح ومراقبة حالتك الصحية عن كثب، يمكنك تجاوز فصل الصيف بأمان والحفاظ على ضغط الدم ضمن المستويات الطبيعية. تذكر أن الوقاية والوعي هما أفضل وسيلة لحماية صحتك.</p>
+        </div>
+        
+        <div class="share-section">
+            <a href="#" class="share-btn"><i class="fab fa-facebook-f"></i> مشاركة</a>
+            <a href="#" class="share-btn"><i class="fab fa-twitter"></i> تغريدة</a>
+            <a href="#" class="share-btn"><i class="fab fa-linkedin-in"></i> مشاركة</a>
+            <a href="#" class="share-btn"><i class="fab fa-whatsapp"></i> واتساب</a>
+        </div>
+    </div>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>MedConsult</h3>
+                <p>منصة طبية رائدة تقدم استشارات طبية عبر الإنترنت مع أفضل الأطباء المتخصصين في مختلف المجالات.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>روابط سريعة</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="index.html#services">الخدمات</a></li>
+                    <li><a href="index.html#doctors">الأطباء</a></li>
+                    <li><a href="index.html#booking">حجز موعد</a></li>
+                    <li><a href="index.html#blog">المدونة الطبية</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>خدماتنا</h3>
+                <ul class="footer-links">
+                    <li><a href="#">استشارات الفيديو</a></li>
+                    <li><a href="#">الاستشارات الكتابية</a></li>
+                    <li><a href="#">الفحوصات المنزلية</a></li>
+                    <li><a href="#">المتابعة الطبية</a></li>
+                    <li><a href="#">الوصفات الإلكترونية</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>اتصل بنا</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-phone"></i> +966 112 345 678</li>
+                    <li><i class="fas fa-envelope"></i> info@medconsult.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> الرياض، المملكة العربية السعودية</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>جميع الحقوق محفوظة &copy; 2025 MedConsult. تم تطويره بحب لتحسين الرعاية الصحية.</p>
+        </div>
+    </footer>
+</body>
+</html>
